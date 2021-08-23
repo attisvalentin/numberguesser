@@ -1,6 +1,6 @@
 import random
 
-n = random.randint(1.,99)
+n = random.randint(1,99)
 guess = int(input("Guess the number between 1-99: "))
 
 while n != guess:
